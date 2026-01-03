@@ -1,0 +1,4 @@
+.venv/*
+!.venv/requirements.in
+!.vnev/requirements.txt
+.qmlls.ini
