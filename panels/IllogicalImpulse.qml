@@ -8,6 +8,7 @@ import qs.modules.ii.wallpaperSelector
 import qs.modules.ii.sidebarLeft
 import qs.modules.ii.mediaControls
 import qs.modules.ii.onScreenDisplay
+import qs.modules.ii.overview
 import qs.modules.common
 
 Scope {
@@ -16,6 +17,7 @@ Scope {
     PanelLoader { component: MediaControls {} }
     PanelLoader { component: NotificationPopup {} }
     PanelLoader { component: OnScreenDisplay {} }
+    PanelLoader { component: Overview {} }
     PanelLoader { component: SidebarLeft {} }
     PanelLoader { component: WallpaperSelector {} }
 }
