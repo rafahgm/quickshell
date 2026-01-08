@@ -12,6 +12,7 @@ import qs.modules.ii.overview
 import qs.modules.ii.cheatsheet
 import qs.modules.ii.sidebarRight
 import qs.modules.ii.regionSelector
+import qs.modules.ii.sessionScreen
 import qs.modules.common
 
 Scope {
@@ -23,6 +24,7 @@ Scope {
     PanelLoader { component: OnScreenDisplay {} }
     PanelLoader { component: Overview {} }
     PanelLoader { component: RegionSelector{} }
+    PanelLoader { component: SessionScreen {} }
     PanelLoader { component: SidebarLeft {} }
     PanelLoader { component: SidebarRight {} }
     PanelLoader { component: WallpaperSelector {} }
