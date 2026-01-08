@@ -10,6 +10,8 @@ import qs.modules.ii.mediaControls
 import qs.modules.ii.onScreenDisplay
 import qs.modules.ii.overview
 import qs.modules.ii.cheatsheet
+import qs.modules.ii.sidebarRight
+import qs.modules.ii.regionSelector
 import qs.modules.common
 
 Scope {
@@ -20,6 +22,8 @@ Scope {
     PanelLoader { component: NotificationPopup {} }
     PanelLoader { component: OnScreenDisplay {} }
     PanelLoader { component: Overview {} }
+    PanelLoader { component: RegionSelector{} }
     PanelLoader { component: SidebarLeft {} }
+    PanelLoader { component: SidebarRight {} }
     PanelLoader { component: WallpaperSelector {} }
 }
