@@ -23,6 +23,11 @@ ShellRoot {
     ReloadPopup {}
 
     Component.onCompleted: {
+        MaterialThemeLoader.reapplyTheme()
+        Hyprsunset.load()
+        ConflictKiller.load()
+        Cliphist.refresh()
+        Wallpapers.load()
     }
 
 
